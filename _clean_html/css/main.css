@@ -358,4 +358,45 @@ section {
 .main_footer .soc_wrap li {
   padding: 0 20px; }
 
+.s_contacts .contact_wrap .contact_item {
+  margin-bottom: 40px; }
+  .s_contacts .contact_wrap .contact_item i {
+    font-size: 25px; }
+  .s_contacts .contact_wrap .contact_item h3 {
+    text-align: left;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 18px; }
+  .s_contacts .contact_wrap .contact_item p {
+    font-size: 16px; }
+.s_contacts .main_form .form_item {
+  margin-bottom: 30px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500; }
+  .s_contacts .main_form .form_item input:not([type="submit"]), .s_contacts .main_form .form_item textarea {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px; }
+  .s_contacts .main_form .form_item textarea {
+    height: 70px; }
+  .s_contacts .main_form .form_item .form_color {
+    font-size: 20px; }
+  .s_contacts .main_form .form_item .text_danger ul {
+    padding-left: 0; }
+    .s_contacts .main_form .form_item .text_danger ul li {
+      list-style-type: none;
+      font-weight: 500; }
+.s_contacts .main_form input[type="submit"] {
+  border: 0;
+  color: #fff;
+  float: right;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=main.css.map */

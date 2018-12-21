@@ -39,6 +39,9 @@ $(document).ready(function() {
 		showCloseBtn: true
 	});
 
+	$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+
+	$(".modal_mnu a").mPageScroll2id();
 });
 
 

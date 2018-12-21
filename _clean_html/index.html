@@ -23,7 +23,7 @@
 </div> -->
 
 <div class="preloader">
-    <div class="page-loader-circle"></div>
+		<div class="page-loader-circle"></div>
 </div>
 
 
@@ -75,10 +75,9 @@
 				
 				<nav class="modal_mnu">
 					<ul>
-						<li><a href="#">Обо мне</a></li>
-						<li><a href="#">Резюме</a></li>
-						<li><a href="#">Портфолио</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="#about">Обо мне</a></li>
+						<li><a href="#portfolio">Портфолио</a></li>
+						<li><a href="#contacts">Контакты</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -312,6 +311,57 @@
 			<h2>Contacts</h2>
 			<p>Contact me</p>
 		</div>
+
+		<div class="contact_wrap">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-sm-6">
+						<div class="contact_item">
+							<i class="fa fa-envelope"></i>
+							<h3>E-mail:</h3>
+							<p><a href="mailto:segaz@gmail.com">segaz@gmail.com</a></p>
+						</div>
+						<div class="contact_item">
+							<i class="fa fa-skype"></i>
+							<h3>Skype:</h3>
+							<p>@makbob</p>
+						</div>
+						<div class="contact_item">
+							<i class="fa fa-telegram"></i>
+							<h3>Telegram:</h3>
+							<p>@sega</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6">
+
+						<form action="https://formspree.io/segakuz@gmail.com" method="POST" class="main_form" target="_blank" novalidate>
+
+							<label class="form_item control-group">
+								<span class="form_color">*</span> Ваше имя:
+								<input type="text" name="cont_form_name" placeholder="Введите ваше имя" data-validation-required-message="Необходимо указать имя" required>
+								<span class="help-block text_danger"></span>
+							</label>
+
+							<label class="form_item control-group">
+								<span class="form_color">*</span> Ваш e-mail:
+								<input required id="em" type="email" name="_replyto" placeholder="Введите ваш e-mail" data-validation-required-message="Необходимо указать адрес почты" data-validation-email-message="Неправильно введен адрес почты">
+								<span class="help-block text_danger"></span>
+							</label>
+
+							<label class="form_item control-group">
+								<span class="form_color">*</span> Ваше сообщение:
+								<textarea name="cont_form_mess" placeholder="Введите ваше сообщение" data-validation-required-message="Необходимо написать сообщение" required></textarea>
+								<span class="help-block text_danger"></span>
+							</label>
+							
+							<input type="submit" value="Отправить">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer class="main_footer bg_dark">
@@ -349,6 +399,7 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

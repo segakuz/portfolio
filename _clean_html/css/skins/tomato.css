@@ -64,4 +64,21 @@ section h3 {
 .port_item_descr_modal h3 {
   letter-spacing: 3px; }
 
+.s_contacts .contact_wrap .contact_item i {
+  color: #FF6347; }
+.s_contacts .contact_wrap .contact_item h3 {
+  letter-spacing: 3px; }
+.s_contacts .main_form .form_item {
+  letter-spacing: 2px;
+  color: #888; }
+  .s_contacts .main_form .form_item input, .s_contacts .main_form .form_item textarea {
+    letter-spacing: 2px; }
+  .s_contacts .main_form .form_item .form_color {
+    color: #FF6347; }
+  .s_contacts .main_form .form_item .text_danger {
+    color: #FF6347; }
+.s_contacts .main_form input[type="submit"] {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+
 /*# sourceMappingURL=tomato.css.map */
